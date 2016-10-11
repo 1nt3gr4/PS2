@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 // Вычисление pi*pi/18 по формуле суммы от m = 1 до бесконечности, где a = [(m-1)!]2 / (2m!).
 namespace range._19
@@ -18,6 +18,7 @@ namespace range._19
             }
             Console.WriteLine(sum);
             Console.WriteLine(Math.PI * Math.PI / 18);
+            Console.WriteLine(m);
         }
     }
 }
